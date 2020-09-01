@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: com.adactin.runner.TestRunnerRerun
+-------------------------------------------------------------------------------
+Tests run: 61, Failures: 0, Errors: 4, Skipped: 13, Time elapsed: 46.202 s <<< FAILURE! - in com.adactin.runner.TestRunnerRerun
+When User selecting the location "Brisbane" as "value" of the hotel(Scenario: User checking the forum and select hotel)  Time elapsed: 0.011 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=location}
+
+Scenario: User checking the forum and select hotel  Time elapsed: 0.012 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=location}
+
+And User selecting credit card type(Scenario: User enters details in Book a Hotel Page)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=cc_type}
+
+Scenario: User enters details in Book a Hotel Page  Time elapsed: 0.002 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=cc_type}
+

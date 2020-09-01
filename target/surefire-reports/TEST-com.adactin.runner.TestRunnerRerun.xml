@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.adactin.runner.TestRunnerRerun" time="46.202" tests="61" errors="4" skipped="13" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Stefan\eclipse-workspace\AdactinCucumber\target\test-classes;C:\Users\Stefan\eclipse-workspace\AdactinCucumber\target\classes;C:\Users\Stefan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Stefan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Stefan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Stefan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Stefan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Stefan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Stefan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Stefan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Stefan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Stefan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Stefan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Stefan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Stefan\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Stefan\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\Stefan\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\Stefan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Stefan\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Stefan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Stefan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Stefan\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Stefan\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Selenium\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Stefan\AppData\Local\Temp\surefire2783526966063232180\surefirebooter6674679426852973514.jar C:\Users\Stefan\AppData\Local\Temp\surefire2783526966063232180 2020-08-24T21-37-03_908-jvmRun1 surefire8278346235324482169tmp surefire_0890133839329910494tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Stefan\eclipse-workspace\AdactinCucumber\target\test-classes;C:\Users\Stefan\eclipse-workspace\AdactinCucumber\target\classes;C:\Users\Stefan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Stefan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Stefan\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Stefan\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Stefan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Stefan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Stefan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Stefan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Stefan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Stefan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Stefan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Stefan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Stefan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Stefan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Stefan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Stefan\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\Stefan\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.2\cucumber-extentsreport-3.0.2.jar;C:\Users\Stefan\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\Users\Stefan\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Stefan\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\Stefan\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Stefan\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Stefan\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Stefan\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Stefan\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Stefan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Selenium\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="C:\Users\Stefan\eclipse-workspace\AdactinCucumber"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Stefan\AppData\Local\Temp\surefire2783526966063232180\surefirebooter6674679426852973514.jar"/>
+    <property name="sun.boot.class.path" value="C:\Selenium\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Selenium\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Selenium\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="Stefan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Selenium\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Stefan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Stefan\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="C:\Users\Stefan\eclipse-workspace\AdactinCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Selenium\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jre1.8.0_251;C:\Maven\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Users\Stefan\AppData\Local\Microsoft\WindowsApps;;C:\Users\Stefan\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="C:\Selenium\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="Given User launch the adactin application" classname="| AAA | 111 |" time="0"/>
+  <testcase name="When user login to the application" classname="| AAA | 111 |" time="0"/>
+  <testcase name="Given User launch the application" classname="| AAA | 111 |" time="0"/>
+  <testcase name="When User enter the valid &quot;AAA&quot; in User field" classname="| AAA | 111 |" time="0"/>
+  <testcase name="And User enters the valid &quot;111&quot; in password field" classname="| AAA | 111 |" time="0"/>
+  <testcase name="And User click the login button" classname="| AAA | 111 |" time="0"/>
+  <testcase name="Then User verify the home page and navigate to next page" classname="| AAA | 111 |" time="0"/>
+  <testcase name="| AAA | 111 |" classname="| AAA | 111 |" time="0"/>
+  <testcase name="Given User launch the adactin application" classname="| BBB | 222 |" time="0"/>
+  <testcase name="When user login to the application" classname="| BBB | 222 |" time="0"/>
+  <testcase name="Given User launch the application" classname="| BBB | 222 |" time="0"/>
+  <testcase name="When User enter the valid &quot;BBB&quot; in User field" classname="| BBB | 222 |" time="0"/>
+  <testcase name="And User enters the valid &quot;222&quot; in password field" classname="| BBB | 222 |" time="0.001"/>
+  <testcase name="And User click the login button" classname="| BBB | 222 |" time="0"/>
+  <testcase name="Then User verify the home page and navigate to next page" classname="| BBB | 222 |" time="0"/>
+  <testcase name="| BBB | 222 |" classname="| BBB | 222 |" time="0.001"/>
+  <testcase name="Given User launch the adactin application" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="When user login to the application" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="Given User launch the application" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="When User enter the valid &quot;Stefanbabu&quot; in User field" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="And User enters the valid &quot;stefan@143&quot; in password field" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="And User click the login button" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="Then User verify the home page and navigate to next page" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="| Stefanbabu | stefan@143 |" classname="| Stefanbabu | stefan@143 |" time="0"/>
+  <testcase name="Given User launch the adactin application" classname="Scenario: User checking the forum and select hotel" time="0"/>
+  <testcase name="When user login to the application" classname="Scenario: User checking the forum and select hotel" time="0"/>
+  <testcase name="When User selecting the location &quot;Brisbane&quot; as &quot;value&quot; of the hotel" classname="Scenario: User checking the forum and select hotel" time="0.011">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QS37V4D&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ab1aef4475edf91e0f5a44f74ee51e6a&#10;*** Element info: {Using=id, value=location}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=location}
+</error>
+  </testcase>
+  <testcase name="Scenario: User checking the forum and select hotel" classname="Scenario: User checking the forum and select hotel" time="0.012">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QS37V4D&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ab1aef4475edf91e0f5a44f74ee51e6a&#10;*** Element info: {Using=id, value=location}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=location}
+</error>
+  </testcase>
+  <testcase name="And User select the hotel &quot;Hotel Sunshine&quot;as &quot;value&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selecting the room type &quot;Double&quot; as &quot;value&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selecting number of rooms &quot;2&quot; as &quot;value&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selecting checkin date &quot;17/08/2020&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selecting checkout date &quot;18/08/2020&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User selecting how many Adult per Room &quot;2&quot; as &quot;value&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user selecting how many childrens per Room &quot;1&quot; as &quot;value&quot;" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user Click the Search button" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User verify the search hotel page and navigate to next page" classname="Scenario: User checking the forum and select hotel" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User launch the adactin application" classname="Scenario: User Verify the selected hotel page" time="0"/>
+  <testcase name="When user login to the application" classname="Scenario: User Verify the selected hotel page" time="0"/>
+  <testcase name="When User select the Radio Button" classname="Scenario: User Verify the selected hotel page" time="0"/>
+  <testcase name="And User click the submit Button" classname="Scenario: User Verify the selected hotel page" time="0"/>
+  <testcase name="Then User navigate to next page" classname="Scenario: User Verify the selected hotel page" time="0"/>
+  <testcase name="Scenario: User Verify the selected hotel page" classname="Scenario: User Verify the selected hotel page" time="0.001"/>
+  <testcase name="Given User launch the adactin application" classname="Scenario: User enters details in Book a Hotel Page" time="0"/>
+  <testcase name="When user login to the application" classname="Scenario: User enters details in Book a Hotel Page" time="0"/>
+  <testcase name="When User enters the first name" classname="Scenario: User enters details in Book a Hotel Page" time="0.001"/>
+  <testcase name="And User enter the last name" classname="Scenario: User enters details in Book a Hotel Page" time="0"/>
+  <testcase name="And User enter the billing Address" classname="Scenario: User enters details in Book a Hotel Page" time="0"/>
+  <testcase name="And User enter the credit card number" classname="Scenario: User enters details in Book a Hotel Page" time="0"/>
+  <testcase name="And User selecting credit card type" classname="Scenario: User enters details in Book a Hotel Page" time="0">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QS37V4D&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ab1aef4475edf91e0f5a44f74ee51e6a&#10;*** Element info: {Using=id, value=cc_type}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=cc_type}
+</error>
+  </testcase>
+  <testcase name="Scenario: User enters details in Book a Hotel Page" classname="Scenario: User enters details in Book a Hotel Page" time="0.002">
+    <error message="invalid session id&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-QS37V4D&apos;, ip: &apos;192.168.43.158&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: ab1aef4475edf91e0f5a44f74ee51e6a&#10;*** Element info: {Using=id, value=cc_type}" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-QS37V4D', ip: '192.168.43.158', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Stefan\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: ab1aef4475edf91e0f5a44f74ee51e6a
+*** Element info: {Using=id, value=cc_type}
+</error>
+  </testcase>
+  <testcase name="And User selecting expiry date" classname="Scenario: User enters details in Book a Hotel Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User enter CVV number" classname="Scenario: User enters details in Book a Hotel Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And User Click the Book now button" classname="Scenario: User enters details in Book a Hotel Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User navigate to the Booking configuration page" classname="Scenario: User enters details in Book a Hotel Page" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given User launch the adactin application" classname="Scenario: User Verify Booking configuration Page" time="0"/>
+  <testcase name="When user login to the application" classname="Scenario: User Verify Booking configuration Page" time="0"/>
+  <testcase name="When User click the My Itineary Button" classname="Scenario: User Verify Booking configuration Page" time="0"/>
+  <testcase name="And User checking Booked Itineary page and click the logout button" classname="Scenario: User Verify Booking configuration Page" time="0"/>
+  <testcase name="Then User navigated to the logged out page." classname="Scenario: User Verify Booking configuration Page" time="0"/>
+  <testcase name="Scenario: User Verify Booking configuration Page" classname="Scenario: User Verify Booking configuration Page" time="0.003"/>
+</testsuite>
