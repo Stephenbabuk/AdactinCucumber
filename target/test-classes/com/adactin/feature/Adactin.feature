@@ -34,7 +34,7 @@ Scenario: User checking the forum and select hotel
 	And user Click the Search button 
 	Then User verify the search hotel page and navigate to next page 
 	
-	
+	@RegressionTest
 	Scenario: User Verify the selected hotel page 
 	
 		When User select the Radio Button 
